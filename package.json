@@ -1,0 +1,29 @@
+{
+    "name": "spring4shellaudit",
+    "author": "Tyler Ouellette",
+    "license": "MIT",
+    "version": "1.0.0",
+    "description": "Spring4Shell Audit",
+    "main": "start.js",
+    "scripts": {
+      "prestart": "tsc",
+      "start": "node dist/start.js",
+      "tsc": "tsc"
+    },
+    "dependencies": {
+      "@dt-esa/dynatrace-api-client": "^1.234.3",
+      "dotenv": "^10.0.0",
+      "express": "^4.17.1",
+      "https": "^1.0.0",
+      "node-fetch": "^2.6.1"
+    },
+    "devDependencies": {
+      "@types/express": "^4.17.13",
+      "@types/node": "^17.0.23",
+      "nodemon": "^2.0.15",
+      "ts-node": "^10.7.0",
+      "tslib": "^2.3.1",
+      "typescript": "^4.6.3"
+    }
+  }
+  
