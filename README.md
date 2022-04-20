@@ -6,6 +6,7 @@ A TypeScript script that gets the spring 4 shell vulnerable processes, determine
 
 ## Pre-Requisites
 Node 14 or greater
+API Token must have permissions to read entities, read security problems (entities.read, securityProblems.read)
 
 ## How to Run
 
