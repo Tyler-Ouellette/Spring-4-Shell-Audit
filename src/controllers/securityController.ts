@@ -61,7 +61,7 @@ exports.spring4ShellProd = async (req, res) => {
         named["hostName"] = host.displayName;
         named["IP"] = host.properties.ipAddress.toString();
         const mzs = host.managementZones.map(mz => mz.name);
-        named["Barcodes"] = mzs.toString() as any;
+        named["ManagementZones"] = mzs.toString() as any;
         delete named.managementZones;
         return named;
     }));
